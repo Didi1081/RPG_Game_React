@@ -1,0 +1,349 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("https://s1.1zoom.ru/big0/88/Coffee_Donuts_Cup_Grain_522303_1280x853.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.characterContainer {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  color:black;  
+}
+
+img {
+  height: 168px;
+  width: 200px;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 70%;
+}
+
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s; 
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+.container {
+  background: rgba(31, 25, 16, 0.85);
+  color:lightgray;
+  height: 330px;
+  padding-top:40px;
+  font-size: 12px;
+  margin-top:150px;
+  border-color: black;
+  -webkit-box-shadow: 0 10px 6px -6px white;
+     -moz-box-shadow: 0 10px 6px -6px black;
+          box-shadow: 0 10px 6px -6px black;
+  
+  
+
+
+
+}
+#characters{
+  margin-left:20px;
+  
+
+}
+
+
+
+
+.two {
+  margin-top: 100px;
+  height:100px;
+  margin-right: 0px;
+  
+}
+
+.one {
+  margin-left:0px;
+}
+
+.three{
+  margin-left:0px;
+  margin-bottom:50px;
+  
+  
+}
+
+h1{
+  color: whitesmoke;
+  margin-top:100px;
+  font-style: bold;
+  font-family: 'Raleway';
+  font-size: 100px;
+  
+}
+
+
+
+
+.btn-danger{
+  margin-left: 50px;
+  height: 100px;
+  width: 500px;
+  font-size: 30px;
+  
+}
+
+
+
+
+#food {
+color: orange;
+}
+
+.header {
+  margin-left:0px;
+  
+}
+
+.menuthree {
+
+  
+      position: relative;
+    
+  
+  background: rgba(63, 188, 216, 0.85);
+  /* box-shadow: 5px 10px #888888; */
+  color:black;
+  webkit-transform: rotate(5deg); 
+  transform: rotate(5deg);
+  border-style: dotted;
+  border-width: 20px;
+  border-color: darkcyan;
+  -webkit-box-shadow: 0 10px 6px -6px black;
+     -moz-box-shadow: 0 10px 6px -6px black;
+          box-shadow: 0 10px 6px -6px black;
+}
+  
+  
+.menutwo {
+
+  background: rgba(254, 254, 254, 0.352);
+  color:black;
+}
+
+.menusix {
+
+  width: 800px;
+
+  position: relative;
+    
+  
+  background: rgba(205, 83, 49, 0.742);
+  /* box-shadow: 5px 10px #888888; */
+  color:black;
+  webkit-transform: rotate(-5deg); 
+  transform: rotate(-5deg);
+  border-style: dotted;
+  border-width: 20px;
+  border-color: rgb(6, 4, 4);
+  margin-right: 20px
+
+}
+
+.menuone {
+  height: 250px;
+}
+
+#display {
+  margin-bottom: 200px;
+}
+
+#imagepicture {
+
+}
+
+#font-sizes-and-stuff {
+  
+}
+
+.yourDefenderFont{
+  font-size: 30px;
+
+
+}
+
+.enemyHPFont {
+  font-size: 30px;
+
+}
+
+#score {
+  margin-left: 400px;
+  font-size: 50px;
+}
+
+
+
+
+.marginh1{
+
+margin-top: -60px;
+}
+
+#enemyscore {
+  font-size: 40px;
+  margin-left: 100px;
+}
+
+
+
+
+/* The animated hoover */
+
+#myImg {
+  
+  cursor: pointer;
+  transition: 0.3s;
+  
+  
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.733); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.726); /* Black w/ opacity */
+}
+
+#img01 {
+  height:400px;
+  width: 600px;
+}
+
+#img02 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  margin-left: 900px;
+ 
+}
+
+#img03 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+#img04 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  margin-left: 400px;
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  border-width:50px;  
+  border-style:hidden;
+ 
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+      width: 100%;
+  }
+}
